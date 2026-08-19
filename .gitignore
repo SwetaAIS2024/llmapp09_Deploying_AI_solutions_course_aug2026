@@ -1,0 +1,22 @@
+# Secrets — all .env files everywhere
+.env
+**/.env
+
+# Virtual environments
+.venv*/
+venv/
+**/venv/
+**/.venv/
+.venv/
+llm-multiroute/venv
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+**/.pytest_cache/
+*.egg-info/
+
+# OS
+.DS_Store
